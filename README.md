@@ -1,41 +1,67 @@
-# Visitor-Management-System
+# Company Visitor Management System (CVMS)
 
+The Company Visitor Management System (CVMS) is a PHP-based web application designed to manage and maintain records of visitors who visit a company. It provides essential features for tracking visitor information, generating reports, and creating visitor ID cards.
 
-**Project Name  ->** Company Visitor Management System (CVMS)<br>
-**Language Used ->** PHP<br>
-**Database      ->** MySQL<br>
-**User Interface Design ->** HTML, AJAX,JQUERY,JAVASCRIPT<br>
-**Web Browser   ->** Mozilla, Google Chrome, IE8, OPERA<br>
-**Software      ->** XAMPP / Wamp / Mamp/ Lamp (anyone)<br>
+## Features
 
-This is the project which keep records of visitors who visited in  the company.<br>
+- **Dashboard:** Admin can view a summary of how many visitors have visited within a specific period.
 
-**Dashboard:** In this sections, admin can briefly view how many visitors visited in a particular period.<br>
-**Visitors:** In this section, admin adds new visitors by filling their information in add visitors sections and also view and manage visitors records. Admin also put visitors out time in the manage records section.<br>
-**Search:** In this bar, admin can search a particular person by their name and phone number.<br>
-**Reports:** In this section admin can generate visitors reports between two dates.<br>
-**Id- Card :** In this section admin can able to generate id-card of register visitor.<br>
+- **Visitors:** 
+  - Add new visitors by filling in their information in the "Add Visitors" section.
+  - View and manage visitor records, including check-in and check-out times.
 
+- **Search:** Admin can quickly search for a specific visitor by name or phone number.
 
-**How to run** the Company Visitors Management System (CVMS) Project<br>
+- **Reports:** Generate visitor reports within a specified date range.
 
-1. Download the  zip file<br>
+- **ID Card:** Admin can generate visitor ID cards for registered visitors.
 
-2. Extract the file and copy cvms folder
+## How to Run CVMS
 
-3. Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+Follow these steps to set up and run the Company Visitor Management System (CVMS) project on your local machine:
 
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+1. **Download and Extract:**
+   - Download the project zip file.
+   - Extract the contents, and you'll find a folder named "cvms."
 
-5. Create a database with name cvmsdb
+2. **Place in Root Directory:**
+   - Move the "cvms" folder to your web server's root directory.
+     - For XAMPP: `xampp/htdocs`
+     - For WAMP: `wamp/www`
+     - For LAMP: `var/www/html`
 
-6. Import cvmsdb.sql file( given inside the zip package in SQL file folder)
+3. **Database Setup:**
+   - Open PHPMyAdmin in your web browser (e.g., http://localhost/phpmyadmin).
+   - Create a new database named `cvmsdb`.
+   - Import the provided SQL file (`cvmsdb.sql`) found in the "SQL file" folder within the project's zip package.
 
-7.Run the script http://localhost/cvms ( frontend )
+4. **Run the Application:**
+   - Launch the web application by accessing http://localhost/cvms in your web browser.
 
-**Credential for admin panel :**<br>
-**Username: admin** <br>
-**Password: Test@123**
+5. **Admin Panel Login:**
+   - Use the following credentials to log in to the admin panel:
+     - Username: admin
+     - Password: Test@123
+
+## System Requirements
+
+- Web Server (XAMPP, WAMP, LAMP, or similar)
+- PHP
+- MySQL Database
+- Web Browser (Mozilla, Google Chrome, IE8, Opera)
+
+## Technologies Used
+
+- PHP
+- MySQL
+- HTML
+- AJAX
+- jQuery
+- JavaScript
+
+## Credential for admin panel :
+Username: admin
+Password: Test@123 
 
 ![output](https://github.com/pawan-malik-01/Visitor-Management-System/assets/124669097/d61cfc3b-b8ec-4a5e-a092-8873c2b2701f)<br><br>
 ![output-2](https://github.com/pawan-malik-01/Visitor-Management-System/assets/124669097/10461727-24fa-42bc-ae9c-330ffd9a54c4)
